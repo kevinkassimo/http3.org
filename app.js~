@@ -7,7 +7,7 @@ app.use(express.static('public'));
 
 app.get('/*', function(req, res) {
     res.type('text/html');
-    res.sendFile('main/index.html');
+    res.sendFile('index.html');
     res.status('200');
 });
 
